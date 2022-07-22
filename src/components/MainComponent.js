@@ -6,7 +6,8 @@ class Main extends Component {
         return(
             <div>
                 <Header />
-                <h1>Almost before we knew it, we had left the ground.</h1>
+                <h1>Life is fast, recover faster</h1>
+                <h3>It's time to get in the driver's seat.</h3>
             </div>
 
         );

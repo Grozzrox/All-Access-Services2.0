@@ -49,6 +49,10 @@ h1 {
   margin-bottom: 30px; 
 } 
 
+.header-text button {
+  border-radius: 1px;
+}
+
 
 /* BODY COMPONENT */
 
@@ -58,4 +62,8 @@ h1 {
   background-position: center;
   height: 350px;
   width: auto;
+}
+
+.button-div button {
+  border-radius: 1px;
 }

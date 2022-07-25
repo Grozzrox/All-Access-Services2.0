@@ -2,6 +2,7 @@
 
 /* COLORS: 
 red: #d9534f;
+matte black: #28282B;
 */
 
 body {
@@ -27,10 +28,16 @@ h1 {
   text-align: center;
 }
 
+/* NAVBAR COMPONENT */
+
+.navbar-nav {
+  background-color: #0f0f0f;
+}
+
 /* HEADER COMPONENT */
 
 .top-background-div {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.499)), url('../public/images/towtruck.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.75)), url('../public/images/towtruck.jpg');
   background-size: cover;
   background-position: center;
   width: auto;
@@ -42,11 +49,6 @@ h1 {
   margin-bottom: 30px; 
 } 
 
-
-.divider {
-  border-right: 2px solid #d9534f;
-  margin-left: 33%;
-}
 
 /* BODY COMPONENT */
 

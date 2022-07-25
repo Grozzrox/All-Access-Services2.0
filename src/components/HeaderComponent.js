@@ -19,8 +19,8 @@ const Header = () => {
         const toggle = () => setIsOpen(!isOpen);
 
         return(
-            <Navbar className="py-3" color="light" light expand="md">
-                <NavbarBrand href="/"><img src={companyLogo} style={{height: 40, width: 40}} alt="logo" /><span className="divider"></span></NavbarBrand>
+            <Navbar className="py-3 navbar-nav" dark expand="md">
+                <NavbarBrand href="/"><img src={companyLogo} style={{height: 65, width: 'auto'}} alt="logo" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="me-auto" navbar>
@@ -35,7 +35,7 @@ const Header = () => {
                     </NavItem>
                     
                     </Nav>
-                    <NavbarText>Get My Stuff Back</NavbarText>
+                    <NavbarText>Get My Stuff</NavbarText>
                 </Collapse>
             </Navbar>
         );

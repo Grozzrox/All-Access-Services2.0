@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import Header from "./HeaderComponent";
+import TopComponent from "./TopComponent";
+import BodyComponent from "./BodyComponent";
+import { Container } from 'reactstrap';
 
 class Main extends Component {
     render() {
         return(
-            <div>
+            <div className="background">
                 <Header />
-                <h1>Life is fast, recover faster</h1>
-                <h3>It's time to get in the driver's seat.</h3>
+                <TopComponent />
+                <BodyComponent />
+                
             </div>
 
         );

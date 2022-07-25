@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
 
+/* COLORS: 
+red: #d9534f;
+*/
+
 body {
   font-family: 'Manrope', sans-serif;
   letter-spacing: -0.5px;
+  word-spacing: 3px;
   font-weight: 500;
-  word-spacing: 2px;
+  color: white;
+
 }
 
 h1 {
+  padding-top: 50px;
   font-weight: 600;
-  font-size: 4rem;
-  letter-spacing: -2px;
-  word-spacing: 2px;
+  font-size: 4.5rem;
+  letter-spacing: -3px;
+  word-spacing: 5px;
+  
 }
 
 
@@ -19,7 +27,33 @@ h1 {
   text-align: center;
 }
 
+/* HEADER COMPONENT */
+
+.top-background-div {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.499)), url('../public/images/towtruck.jpg');
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 800px;
+}
+
+.header-text > *:not(:last-child) {
+  display: block;
+  margin-bottom: 30px; 
+} 
+
+
 .divider {
-  border-right: 2px solid orange;
-  margin-left: 6.5%;
+  border-right: 2px solid #d9534f;
+  margin-left: 33%;
+}
+
+/* BODY COMPONENT */
+
+.rva-background-div {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.499)), url('../public/images/rva-sunset-skyline.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: auto;
 }

@@ -124,7 +124,7 @@ p {
   background-color: #DE541E;
   border: 1px solid #DE541E;
   border-radius: 1px;
-  transition: transform 0.2s;
+  transition: transform all 0.2s;
 }
 
 .btn:hover,
@@ -132,6 +132,7 @@ p {
   background-color: #3F3F37;
   border: 1px solid #3F3F37;
   transform: scale(1.05);
+  opacity: 0.9;
 }
 
 /* ABOUT SECTION */

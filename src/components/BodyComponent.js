@@ -1,20 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
-import { Button, Container } from 'reactstrap';
+import { Button, Container, Row, Column} from 'reactstrap';
 
 const BodyComponent = () => {
 
     return(
-        <div className="rva-background-div row align-items-center">
-            <div className='button-div'>
-            <Button
-                color="danger" size="lg"
-            >
-                Book Appointment
-            </Button>
-            </div>
+        <Container className='rva-parent-div big-container'>
+            <Row className="rva-background-div row align-items-center">
+            <div className="button-div col">
+                <Button
+                    className="btn" size="lg"
+                >
+                    Learn More
+                </Button>
+                </div>
+            </Row>
+        </Container>
 
-        </div>
     )
 }
 

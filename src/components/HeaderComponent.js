@@ -8,9 +8,11 @@ import {
     Nav,
     NavItem,
     NavLink,
-    NavbarText
+    NavbarText,
+    Container,
+    Row
   } from 'reactstrap';
-import companyLogo from './../../src/All-Access-Services-logos/All-Access-Services-logos.jpeg';
+import companyLogo from './../../src/All-Access-Services-logos/simple-logo-copy.png';
 
 const Header = () => {
 
@@ -19,8 +21,8 @@ const Header = () => {
         const toggle = () => setIsOpen(!isOpen);
 
         return(
-            <Navbar className="py-3 navbar-nav" dark expand="md">
-                <NavbarBrand href="/"><img src={companyLogo} style={{height: 65, width: 'auto'}} alt="logo" /></NavbarBrand>
+            <Navbar className="navbar-nav" dark expand="md">
+                <NavbarBrand href="/"><img src={companyLogo} className="navbar-brand" style={{height: 'auto', width: 80}} alt="logo" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="me-auto" navbar>

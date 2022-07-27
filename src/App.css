@@ -3,26 +3,74 @@
 /* COLORS: 
 red: #d9534f;
 matte black: #28282B;
+
+flame: #DE541E;
+middle grey: #878472;
+olive drab: #494331;
+pale spring bud: #D6D6B1;
+black olive: #3F3F37;
 */
 
 body {
   font-family: 'Manrope', sans-serif;
-  letter-spacing: -0.5px;
   word-spacing: 3px;
   font-weight: 500;
   color: white;
 
 }
 
-h1 {
-  padding-top: 50px;
+h1, h2, h3, h4, h5 {
   font-weight: 600;
-  font-size: 4.5rem;
-  letter-spacing: -3px;
   word-spacing: 5px;
   
 }
 
+h1 {
+  font-size: 5rem;
+  letter-spacing: -1px;
+}
+
+
+h2 {
+  margin-bottom: 3%;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  margin-bottom: 5%;
+}
+
+h4 {
+  letter-spacing: -1px;
+}
+
+h5 {
+  letter-spacing: -0.5px;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.big-container {
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row {
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
 
 .App {
   text-align: center;
@@ -31,17 +79,23 @@ h1 {
 /* NAVBAR COMPONENT */
 
 .navbar-nav {
-  background-color: #0f0f0f;
+  background-color: black;
+  padding: 0 5px;
 }
 
 /* HEADER COMPONENT */
 
+.jumbotron-container {
+  width: auto;
+  height: 650px;
+}
+
 .top-background-div {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.75)), url('../public/images/towtruck.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .75)), url('../public/images/towtruck.jpg');
   background-size: cover;
   background-position: center;
-  width: auto;
-  height: 800px;
+  width: 100%;
+  height: 100%;
 }
 
 .header-text > *:not(:last-child) {
@@ -49,21 +103,70 @@ h1 {
   margin-bottom: 30px; 
 } 
 
-.header-text button {
-  border-radius: 1px;
-}
-
-
 /* BODY COMPONENT */
 
-.rva-background-div {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.499)), url('../public/images/rva-sunset-skyline.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 350px;
+.rva-parent-div {
   width: auto;
+  height: 300px;
 }
 
-.button-div button {
+
+.rva-background-div {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.33)), url('../public/images/daytime-richmond-skyline.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  background-color: #DE541E;
+  border: 1px solid #DE541E;
   border-radius: 1px;
+  transition: transform 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #3F3F37;
+  border: 1px solid #3F3F37;
+  transform: scale(1.05);
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+  color: black;
+  text-align: left;
+  margin-top: 3%
+}
+
+.mission-statement {
+  padding-right: 2.5%;
+}
+
+#repoman {
+  height: auto;
+  width: 100%;
+  padding-left: 2.5%;
+}
+
+#towtruck {
+  height: auto;
+  width: 100%;
+  padding: 0 0 5% 2.5%;
+}
+
+#clocktower {
+  height: auto;
+  width: 100%;
+  padding: 0 2.5% 5% 0;
+}
+
+#va-h2 {
+  padding-top: 15%;
+}
+
+#tow-h4, #tow-p {
+  padding-left: 2.5%;
 }

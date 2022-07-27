@@ -8,11 +8,7 @@ const BodyComponent = () => {
         <Container className='rva-parent-div big-container'>
             <Row className="rva-background-div row align-items-center">
             <div className="button-div col">
-                <Button
-                    className="btn" size="lg"
-                >
-                    Learn More
-                </Button>
+                
                 </div>
             </Row>
         </Container>

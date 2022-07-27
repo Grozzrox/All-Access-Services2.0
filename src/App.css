@@ -112,9 +112,10 @@ p {
 
 
 .rva-background-div {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.33)), url('../public/images/daytime-richmond-skyline.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../public/images/daytime-richmond-skyline.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
 }
@@ -164,7 +165,7 @@ p {
 }
 
 #va-h2 {
-  padding-top: 15%;
+  padding-top: 12%;
 }
 
 #tow-h4, #tow-p {

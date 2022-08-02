@@ -11,7 +11,7 @@ const AboutComponent = () => {
         <Container className='about-container'>
             <Row>
                 <Col className="col-md-6 mission-statement">
-                <h2>Ready to meet your <br></br> repossession needs</h2>
+                <h2>Ready to meet your repossession needs</h2>
                 <p>All Access Services is Virginia's premier vehicle repossession and recovery company. We have over
                     10 years of service recovering vehicles for the nation's top lenders. Located in the heart of Virginia,
                     Richmond, we are strategically located to repossess vehicles all across the state. 

@@ -2,10 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from "react";
 import { Button, Container, Row, Col, Collapse, Card, CardBody} from 'reactstrap';
 import map from './../All-Access-Services-logos/filled_map.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-const element = <FontAwesomeIcon icon={faCoffee} />
 
 class MapComponent extends Component {
 
@@ -53,11 +50,6 @@ class MapComponent extends Component {
                         </div>
                     </Col>
                     
-                </Row>
-                <Row>
-                    <Col>
-                       {element}
-                    </Col>
                 </Row>
             </Container>
         );

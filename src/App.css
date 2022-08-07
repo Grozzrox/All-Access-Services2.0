@@ -177,6 +177,7 @@ p {
 
 .map-container {
   margin-top: 10%;
+  margin-bottom: 5%;
   color: black;
   text-align: left;
 }
@@ -185,4 +186,18 @@ p {
   height: auto;
   width: 100%;
   padding-left: 2.5%;
+}
+
+/* BOTTOM CONTAINER */
+
+.bottom-background-div {
+  margin-top: 3%;
+}
+
+.bottom-container {
+  color: black;
+}
+
+#truck-div {
+  font-size: 2rem;
 }

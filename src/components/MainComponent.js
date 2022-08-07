@@ -5,6 +5,7 @@ import BodyComponent from "./BodyComponent";
 import AboutComponent from "./AboutComponent";
 import { Container } from 'reactstrap';
 import MapComponent from "./MapComponent";
+import BottomComponent from "./BottomComponent";
 
 class Main extends Component {
     render() {
@@ -15,6 +16,8 @@ class Main extends Component {
                 <BodyComponent />
                 <AboutComponent />
                 <MapComponent />
+                <BodyComponent />
+                <BottomComponent />
             </div>
 
         );

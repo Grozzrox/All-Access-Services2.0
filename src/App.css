@@ -172,17 +172,3 @@ p {
 #tow-h4, #tow-p {
   padding-left: 2.5%;
 }
-
-/* COVERAGE MAP */
-
-.map-container {
-  margin-top: 10%;
-  color: black;
-  text-align: left;
-}
-
-#coverage-map {
-  height: auto;
-  width: 100%;
-  padding-left: 2.5%;
-}

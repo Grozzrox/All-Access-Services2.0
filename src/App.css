@@ -3,7 +3,6 @@
 /* COLORS: 
 red: #d9534f;
 matte black: #28282B;
-
 flame: #DE541E;
 middle grey: #878472;
 olive drab: #494331;
@@ -87,7 +86,8 @@ p {
 
 .jumbotron-container {
   width: auto;
-  height: 950px;
+  min-height: 50vh;
+  height: 100vh;
 }
 
 .top-background-div {
@@ -170,5 +170,19 @@ p {
 }
 
 #tow-h4, #tow-p {
+  padding-left: 2.5%;
+}
+
+/* COVERAGE MAP */
+
+.map-container {
+  margin-top: 10%;
+  color: black;
+  text-align: left;
+}
+
+#coverage-map {
+  height: auto;
+  width: 100%;
   padding-left: 2.5%;
 }

@@ -37,7 +37,7 @@ const Header = () => {
                     </NavItem>
                     
                     </Nav>
-                    <NavbarText>Get My Stuff</NavbarText>
+                    <NavbarText>All Access Services</NavbarText>
                 </Collapse>
             </Navbar>
         );

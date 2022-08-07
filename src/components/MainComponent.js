@@ -4,6 +4,7 @@ import TopComponent from "./TopComponent";
 import BodyComponent from "./BodyComponent";
 import AboutComponent from "./AboutComponent";
 import { Container } from 'reactstrap';
+import MapComponent from "./MapComponent";
 
 class Main extends Component {
     render() {
@@ -13,6 +14,7 @@ class Main extends Component {
                 <TopComponent />
                 <BodyComponent />
                 <AboutComponent />
+                <MapComponent />
             </div>
 
         );

@@ -192,6 +192,7 @@ p {
 
 .bottom-background-div {
   padding-top: 3%;
+  padding-bottom: 3%;
   background-color: rgb(241, 241, 241);
 }
 
@@ -201,7 +202,7 @@ p {
 }
 
 .bottom-container h4 {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   color: black;
 }
 
@@ -210,7 +211,23 @@ p {
   color: black;
 }
 
+.bottom-col {
+  margin-right: 5%;
+}
+
 #truck-div, #car-div, #clock-div {
   font-size: 2.5rem;
   color: #DE541E
+}
+
+/* CONTACT COMPONENT */
+
+.form-div {
+  padding-top: 2%;
+  color: black;
+  text-align: left;
+}
+
+.form-div h2 {
+  text-align: center;
 }

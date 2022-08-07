@@ -6,6 +6,7 @@ import AboutComponent from "./AboutComponent";
 import { Container } from 'reactstrap';
 import MapComponent from "./MapComponent";
 import BottomComponent from "./BottomComponent";
+import ContactComponent from "./ContactComponent";
 
 class Main extends Component {
     render() {
@@ -18,6 +19,7 @@ class Main extends Component {
                 <MapComponent />
                 <BodyComponent />
                 <BottomComponent />
+                <ContactComponent />
             </div>
 
         );

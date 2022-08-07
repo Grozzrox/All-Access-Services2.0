@@ -4,6 +4,7 @@ import { Button, Container, Row, Col} from 'reactstrap';
 import repoMan from './../All-Access-Services-logos/repo-man.jpg';
 import clocktower from './../All-Access-Services-logos/richmond-clocktower.jpg';
 import towTruck from './../All-Access-Services-logos/roadside-tow.jpg';
+import vaBeach from './../All-Access-Services-logos/va-beach.jpg';
 
 const AboutComponent = () => {
 
@@ -35,7 +36,7 @@ const AboutComponent = () => {
                 to quickly locate vehicles out for repossession throughout the state. </p>
                 </Col>
                 <Col className='col-md-6'>
-                    <img src={towTruck} id="towtruck" alt="towtruck" />
+                    <img src={vaBeach} id="towtruck" alt="towtruck" />
                     <h4 id="tow-h4">24-hour services</h4>
                     <p id="tow-p">We're called All Access Services for a reason. Call us any time to schedule an appointment.</p>
                 </Col>
